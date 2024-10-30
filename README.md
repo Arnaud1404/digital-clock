@@ -2,7 +2,7 @@
 
 A digital clock made with React.
 
-[![Preview](src/assets/preview.png))](https://digital-clock-arnaud-gomes.vercel.app/)
+[![Preview](src/assets/preview.png)](https://digital-clock-arnaud-gomes.vercel.app/)
 
 **Try it yourself here:** [Digital Clock](https://digital-clock-arnaud-gomes.vercel.app/)
 
