@@ -13,6 +13,8 @@
 .time-format {
     margin-top: 15px; /* Increased margin top */
     font-size: 6rem;
+    width: 100%;
+    text-align: center;
     color: white;
     font-weight: bold;
     font-family: 'Lucida Console', Monaco, monospace;
