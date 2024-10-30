@@ -28,7 +28,7 @@ function DigitalClock(){
         const seconds = time.getSeconds();
         // PM or AM ?
         const meridiem = format === "24 Hour" ? "" :
-                        (hours >= 12 ? "PM" : "AM");
+                        (hours >= 12 ? " PM" : " AM");
         
         hours = format === "12 Hour" ? hours % 12 || 12 : hours;
         
@@ -37,7 +37,7 @@ function DigitalClock(){
         const formattedMinutes = minutes < 10 ? `0${minutes}` : minutes;
         const formattedSeconds = seconds < 10 ? `0${seconds}` : seconds;
 
-        return `${formattedHours}:${formattedMinutes}:${formattedSeconds} ${meridiem}`;
+        return `${formattedHours}:${formattedMinutes}:${formattedSeconds}${meridiem}`;
     }   
 
 
