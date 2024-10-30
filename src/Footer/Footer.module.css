@@ -31,6 +31,7 @@
 @media (max-width: 768px) {
 
     .footer-container {
+        font-size: 1.7rem;
         flex-direction: column;
         align-items: center;
     }
@@ -44,6 +45,7 @@
 @media (max-width: 480px) {
 
     .footer-container {
+        font-size: 1.2rem;
         flex-direction: column;
         align-items: center;
     }
