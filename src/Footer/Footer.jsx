@@ -8,7 +8,7 @@ function Footer(){
             &copy;{new Date().getFullYear()} Arnaud Gomes
         </div>
         <div className={styles["credit"]}>
-            <a href="https://wall.alphacoders.com/big.php?i=976013" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.pixiv.net/en/artworks/72055179" target="_blank" rel="noopener noreferrer">
                 Image credit
             </a>
         </div>

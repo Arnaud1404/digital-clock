@@ -6,4 +6,4 @@ A digital clock made with React.
 
 **Try it yourself here:** [digital-clock-arnaud-gomes.vercel.app](https://digital-clock-arnaud-gomes.vercel.app/)
 
-Background image credit: [Alpha Coders](https://wall.alphacoders.com/big.php?i=976013)
+Background image credit: [catzz](https://www.pixiv.net/en/artworks/72055179)
