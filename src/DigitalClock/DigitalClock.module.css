@@ -28,10 +28,14 @@
 .format-buttons{
     display: flex;
     justify-content: center;
+}
+
+label {
     cursor: pointer;
 }
 
 input[type="radio"] {
+    cursor: pointer;
     margin-top: -1px;
     vertical-align: middle;
     appearance: none;
@@ -41,7 +45,6 @@ input[type="radio"] {
     border: 2px solid #0ff;
     border-radius: 50%;
     outline: none;
-    justify-content: center;
     
     transition: background 0.3s, box-shadow 0.3s;
 }
