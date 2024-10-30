@@ -1,10 +1,11 @@
 import DigitalClock from "./DigitalClock/DigitalClock.jsx"
-
+import Footer from "./Footer/Footer.jsx"
 function App() {
 
   return (
     <>
-    <DigitalClock/>
+      <DigitalClock/>
+      <Footer/>
     </>
   )
 }

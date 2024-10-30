@@ -1,0 +1,28 @@
+.footer-container {
+    margin: 10px 20px; /* Reduced left and right margin */
+    padding: 10px 20px; /* Increased left and right padding */
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Lucida Console', Monaco, monospace;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.753);
+
+    width: calc(100% - 40px); /* Adjusted width to account for padding */
+    text-align: center;
+    display: flex;
+    justify-content: space-between; /* Changed to space-between */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.copyright {
+    flex: 1;
+    text-align: left;
+}
+
+.credit {
+    flex: 1;
+    text-align: right;
+    padding-right: 20px; /* Added padding to the right */
+}
